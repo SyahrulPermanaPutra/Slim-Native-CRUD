@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="66" it="0" lt="52" ct="23" ts="1764602183214" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="392" sby="385" ng="2" na="2">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="17" ct="4" ts="1764602184096" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="392" sby="385" ng="3" na="3">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="35" ct="13" ts="1764602184291" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13093" sby="173" ng="3" na="3">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="3" ts="1764602185106" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="392" sby="385" ng="4" na="4">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="34" ct="14" ts="1764602185119" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13071" sby="173" ng="4" na="4">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="3" ts="1764602185331" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="445" sby="159" ng="4" na="4">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602186107" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="392" sby="385" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="27" ct="5" ts="1764602186145" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13065" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="2" ts="1764602186162" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="445" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="2" ts="1764602186361" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="4" ts="1764602187100" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="392" sby="385" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="53" ct="29" ts="1764602187152" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13059" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="1" ts="1764602187180" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="3" ts="1764602187200" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="3" ts="1764602187404" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="220" sby="188" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/9</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="25" ts="1764602188146" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13059" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="3" ts="1764602188212" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="51" ct="3" ts="1764602188226" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="4" ts="1764602188237" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/10</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602188443" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="392" sby="385" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="11" ct="4" ts="1764602189184" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="3" ts="1764602189252" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="3" ts="1764602189285" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/11</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="3" ts="1764602189302" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="392" sby="385" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="17" ts="1764602189460" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13061" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="3" ts="1764602190202" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="3" ts="1764602190285" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/12</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="4" ts="1764602190319" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="392" sby="385" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="55" ct="4" ts="1764602190335" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13054" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602190501" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="3" ts="1764602191229" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/13</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1764602191324" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="392" sby="385" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="36" ct="16" ts="1764602191372" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13070" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="3" ts="1764602191402" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602191543" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602192278" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="16" ts="1764602192340" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13062" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602192418" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="52" ct="2" ts="1764602192435" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="3" ts="1764602192588" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/14</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="17" ts="1764602193329" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13062" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="3" ts="1764602193372" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="46" ct="3" ts="1764602193458" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="3" ts="1764602193497" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/15</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602193635" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1764602194370" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="3" ts="1764602194393" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1764602194508" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/16</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="30" ct="3" ts="1764602194551" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="41" ct="18" ts="1764602194652" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13054" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="3" ts="1764602195401" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="16" ct="4" ts="1764602195432" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/17</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602195542" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="17" ts="1764602195589" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13052" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="2" ts="1764602195700" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="40" ct="3" ts="1764602196431" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/18</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="3" ts="1764602196463" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="17" ts="1764602196588" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13046" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602196635" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602196745" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="3" ts="1764602197480" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="3" ts="1764602197496" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13052" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602197628" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="40" ct="3" ts="1764602197685" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="3" ts="1764602197785" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/19</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="2" ts="1764602198512" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13052" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="2" ts="1764602198512" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602198668" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602198727" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/20</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="2" ts="1764602198818" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="2" ts="1764602199562" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="31" ct="2" ts="1764602199577" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="3" ts="1764602199703" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/21</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602199765" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="16" ts="1764602199859" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13066" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602200607" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="52" ct="2" ts="1764602200623" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/22</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="2" ts="1764602200730" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="16" ts="1764602200808" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13084" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602200902" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="2" ts="1764602201650" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/23</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="3" ts="1764602201682" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="16" ts="1764602201774" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13086" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1764602201853" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="2" ts="1764602201947" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="3" ts="1764602202698" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="34" ct="16" ts="1764602202731" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13090" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="1" ts="1764602202823" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="3" ts="1764602202869" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602202993" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/24</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="3" ts="1764602203749" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13090" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="25" ct="3" ts="1764602203772" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="2" ts="1764602203868" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="3" ts="1764602203917" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/25</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="3" ts="1764602204018" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1764602204762" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="5" ts="1764602204807" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="2" ts="1764602204912" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/26</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="3" ts="1764602204937" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="25" ct="17" ts="1764602205049" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13082" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1764602205780" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1764602205858" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/27</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="4" ts="1764602205951" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="26" ct="17" ts="1764602205967" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13055" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602206077" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="41" it="0" lt="39" ct="3" ts="1764602206797" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/28</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602206875" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="16" ts="1764602206970" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13061" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="2" ts="1764602207002" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="2" ts="1764602207108" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602207846" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="58" it="0" lt="45" ct="17" ts="1764602207923" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13060" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="3" ts="1764602208018" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="3" ts="1764602208048" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602208142" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/29</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="16" ts="1764602208895" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13060" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602208987" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602209034" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602209096" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/30</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="15" ct="3" ts="1764602209188" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="1" ts="1764602209938" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="2" ts="1764602210032" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602210078" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/31</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="4" ts="1764602210124" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="36" ct="4" ts="1764602210218" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13072" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="3" ts="1764602210952" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602211078" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/32</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602211109" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="51" ct="16" ts="1764602211172" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13075" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602211265" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602211998" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/33</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602212106" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="39" ct="2" ts="1764602212153" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13082" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="2" ts="1764602212233" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602212310" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602213046" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="24" ct="16" ts="1764602213156" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13081" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="4" ts="1764602213202" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="4" ts="1764602213265" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1764602213328" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/34</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="11" ct="3" ts="1764602214067" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13081" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="2" ts="1764602214191" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="3" ts="1764602214254" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602214285" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/35</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602214347" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602215081" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1764602215222" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602215301" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/36</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="2" ts="1764602215332" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="16" ts="1764602215394" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13138" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602216126" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="2" ts="1764602216236" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/37</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602216347" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="68" it="0" lt="66" ct="17" ts="1764602216347" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13138" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="2" ts="1764602216442" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="3" ts="1764602217168" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/38</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602217261" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="17" ts="1764602217400" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13128" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="55" it="0" lt="55" ct="3" ts="1764602217416" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="2" ts="1764602217492" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="2" ts="1764602218195" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="4" ts="1764602218299" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13147" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602218450" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602218484" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="2" ts="1764602218526" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/39</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="52" ct="18" ts="1764602219231" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13147" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="2" ts="1764602219340" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="3" ts="1764602219480" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602219512" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/40</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602219573" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602220292" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602220371" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602220526" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/41</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="3" ts="1764602220556" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="51" ct="17" ts="1764602220618" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13140" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602221331" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="3" ts="1764602221416" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/42</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602221567" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="2" ts="1764602221583" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13137" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="19" ct="2" ts="1764602221683" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="3" ts="1764602222367" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/43</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="3" ts="1764602222434" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="16" ts="1764602222592" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13141" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="3" ts="1764602222646" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="2" ts="1764602222718" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="2" ts="1764602223395" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="41" ct="3" ts="1764602223469" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13138" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="2" ts="1764602223636" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="3" ts="1764602223668" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="3" ts="1764602223750" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/44</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="18" ts="1764602224431" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13138" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="25" ct="3" ts="1764602224519" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602224658" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="2" ts="1764602224699" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/45</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="4" ts="1764602224775" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="11" ct="3" ts="1764602225478" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602225555" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602225696" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/46</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602225742" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="51" ct="17" ts="1764602225820" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13170" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="35" ct="3" ts="1764602226492" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="3" ts="1764602226584" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/47</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602226740" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="12" ct="3" ts="1764602226801" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13170" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="2" ts="1764602226879" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="30" ct="3" ts="1764602227531" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/48</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="3" ts="1764602227635" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602227777" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13173" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="3" ts="1764602227834" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="3" ts="1764602227917" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="3" ts="1764602228566" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="10" ct="3" ts="1764602228653" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13164" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602228816" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="4" ts="1764602228866" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="3" ts="1764602228950" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/49</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="17" ts="1764602229610" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13164" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602229673" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="25" ct="3" ts="1764602229846" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602229909" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/50</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602229987" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="8" it="0" lt="8" ct="1" ts="1764602230658" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602230720" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1764602230889" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/51</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602230951" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="4" ts="1764602231025" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13179" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602231680" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="4" ts="1764602231735" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/52</java.net.URL>
+</httpSample>
+<httpSample t="41" it="0" lt="40" ct="2" ts="1764602231917" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="47" ct="26" ts="1764602231992" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13179" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="3" ts="1764602232049" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1764602232699" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/53</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="3" ts="1764602232751" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="25" ct="17" ts="1764602232973" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13182" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="3" ts="1764602233049" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="13" ct="2" ts="1764602233080" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="3" ts="1764602233720" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="51" it="0" lt="50" ct="17" ts="1764602233782" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13203" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="2" ts="1764602234015" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602234077" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="3" ts="1764602234108" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/54</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="50" ct="17" ts="1764602234766" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13203" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="3" ts="1764602234844" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602235032" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602235126" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/55</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="52" ct="2" ts="1764602235141" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="2" ts="1764602235828" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="15" ct="3" ts="1764602235859" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602236079" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/56</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602236173" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="12" ct="3" ts="1764602236203" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13182" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="15" ct="2" ts="1764602236876" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="16" ct="3" ts="1764602236891" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/57</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602237125" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="53" ct="17" ts="1764602237202" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13199" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="6" ts="1764602237233" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="14" ct="2" ts="1764602237906" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/58</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602237921" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="17" ts="1764602238171" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13205" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="2" ts="1764602238265" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602238296" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602238938" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="27" ct="17" ts="1764602238968" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13222" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602239221" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="3" ts="1764602239279" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="3" ts="1764602239339" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/59</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="25" ct="17" ts="1764602239983" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13222" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="1" ts="1764602240000" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602240248" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602240311" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/60</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1764602240368" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602241012" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="53" ct="3" ts="1764602241028" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602241263" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/61</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602241342" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="3" ts="1764602241389" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13225" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602242058" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602242089" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/62</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602242307" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602242370" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13232" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="3" ts="1764602242417" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602243107" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/63</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="3" ts="1764602243138" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="16" ts="1764602243357" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13233" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="2" ts="1764602243419" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602243464" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602244153" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="2" ts="1764602244184" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13236" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="2" ts="1764602244403" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602244434" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="3" ts="1764602244480" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/64</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="17" ts="1764602245200" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13236" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="16" ct="3" ts="1764602245232" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602245452" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="3" ts="1764602245483" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/65</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="3" ts="1764602245498" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="2" ts="1764602246252" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="21" ct="2" ts="1764602246252" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602246502" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/66</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="3" ts="1764602246534" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="24" ct="16" ts="1764602246564" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602247265" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="3" ts="1764602247279" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/67</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602247537" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="2" ts="1764602247594" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="40" ct="21" ts="1764602247584" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602248284" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/68</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1764602248299" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602248572" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="32" ct="3" ts="1764602248604" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1764602248630" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602249313" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="51" ct="6" ts="1764602249329" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13232" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602249627" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602249643" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/69</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="3" ts="1764602249658" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="24" ct="17" ts="1764602250364" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13232" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602250396" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602250661" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="30" ct="3" ts="1764602250677" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="9" ts="1764602250708" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/70</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="3" ts="1764602251396" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="16" ct="3" ts="1764602251411" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="3" ts="1764602251708" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/71</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="29" ct="16" ts="1764602251723" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13241" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="2" ts="1764602251754" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602252424" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="53" ct="3" ts="1764602252439" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/72</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602252752" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="49" ct="2" ts="1764602252767" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="70" it="0" lt="69" ct="17" ts="1764602252782" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13223" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602253471" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/73</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602253503" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="16" ts="1764602253799" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13224" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="38" ct="3" ts="1764602253830" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="3" ts="1764602253861" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="2" ts="1764602254499" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="13" ct="2" ts="1764602254546" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13232" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602254844" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="3" ts="1764602254875" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/74</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602254891" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="2" ts="1764602255533" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13232" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1764602255564" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602255878" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602255924" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602255940" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/75</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602256567" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602256583" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602256928" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/76</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="30" ct="3" ts="1764602256943" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13238" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602256988" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="15" ct="2" ts="1764602257597" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="2" ts="1764602257612" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/77</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602257974" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="2" ts="1764602257990" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="52" ct="2" ts="1764602258006" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13252" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602258617" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/78</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="3" ts="1764602258664" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="24" ct="17" ts="1764602259022" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13247" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="15" ct="3" ts="1764602259053" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="10" ct="3" ts="1764602259069" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1764602259665" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="35" ct="17" ts="1764602259681" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13233" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602260054" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602260085" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="3" ts="1764602260085" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/79</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="25" ct="17" ts="1764602260679" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13233" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="3" ts="1764602260726" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602261101" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="3" ts="1764602261132" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/80</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="3" ts="1764602261148" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="1" ts="1764602261709" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="3" ts="1764602261771" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="22" ct="2" ts="1764602262146" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/81</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602262177" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="30" ct="16" ts="1764602262192" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602262738" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="4" ts="1764602262799" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/82</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1764602263178" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="2" ts="1764602263225" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="67" it="0" lt="66" ct="16" ts="1764602263225" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="2" ts="1764602263788" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/83</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="4" ts="1764602263850" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="24" ct="16" ts="1764602264208" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13212" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="41" it="0" lt="40" ct="3" ts="1764602264270" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="3" ts="1764602264302" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602264816" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="3" ts="1764602264893" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13215" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="2" ts="1764602265237" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602265314" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/84</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602265346" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="25" ct="17" ts="1764602265862" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13215" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="3" ts="1764602265910" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602266253" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602266363" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602266394" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/85</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="2" ts="1764602266897" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="3" ts="1764602266974" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="3" ts="1764602267284" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/86</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602267409" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13212" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="3" ts="1764602267441" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602267934" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="3" ts="1764602268015" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/87</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1764602268311" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1764602268450" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="14" ct="3" ts="1764602268500" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13198" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602268973" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/88</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602269033" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="29" ct="2" ts="1764602269336" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13215" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1764602269482" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="3" ts="1764602269524" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1764602270020" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="55" ct="18" ts="1764602270083" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13218" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="3" ts="1764602270369" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="26" ct="2" ts="1764602270540" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/89</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="42" ct="3" ts="1764602270556" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="37" ct="16" ts="1764602271029" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13218" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="3" ts="1764602271153" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602271388" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602271576" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602271607" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/90</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="3" ts="1764602272075" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602272170" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602272436" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/91</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="16" ts="1764602272606" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13239" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="4" ts="1764602272652" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="32" ct="2" ts="1764602273119" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1764602273216" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/92</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="4" ts="1764602273485" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="8" ct="2" ts="1764602273656" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="41" it="0" lt="39" ct="18" ts="1764602273674" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13232" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="3" ts="1764602274157" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/93</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="3" ts="1764602274233" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="10" ct="3" ts="1764602274511" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13217" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602274671" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="10" ct="1" ts="1764602274720" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602275185" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="17" ts="1764602275261" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13224" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="2" ts="1764602275531" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="2" ts="1764602275702" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/94</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602275734" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="26" ct="17" ts="1764602276234" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13224" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="1" ts="1764602276297" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602276547" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="3" ts="1764602276751" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="3" ts="1764602276782" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/95</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="3" ts="1764602277267" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602277346" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="2" ts="1764602277582" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/96</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="37" ct="17" ts="1764602277799" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1764602277831" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="2" ts="1764602278284" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="11" ct="2" ts="1764602278394" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/97</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1764602278629" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="2" ts="1764602278848" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="52" ct="17" ts="1764602278863" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13234" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602279339" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/98</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1764602279409" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="25" ct="17" ts="1764602279677" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13228" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="3" ts="1764602279889" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="25" ct="2" ts="1764602279930" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="2" ts="1764602280373" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="3" ts="1764602280433" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="2" ts="1764602280703" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1764602280929" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="221" sby="189" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/99</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="29" ct="2" ts="1764602280961" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="17" ts="1764602281403" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="2" ts="1764602281477" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602281727" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602281955" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602282000" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/100</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="2" ts="1764602282445" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="3" ts="1764602282492" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="25" ct="2" ts="1764602282761" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/101</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602282989" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13224" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602283021" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602283475" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1764602283537" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/102</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="34" ct="2" ts="1764602283791" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1764602284038" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="26" ct="17" ts="1764602284070" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13225" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602284525" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/103</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="3" ts="1764602284572" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="393" sby="386" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="11" it="0" lt="10" ct="2" ts="1764602284840" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13225" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602285073" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="2" ts="1764602285104" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="2" ts="1764602285573" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="52" ct="3" ts="1764602285588" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13228" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1764602285853" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602286103" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/104</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602286149" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="17" ts="1764602286617" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13228" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="15" ct="3" ts="1764602286649" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1764602286884" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1764602287129" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="3" ts="1764602287174" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/105</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602287659" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="3" ts="1764602287675" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="24" ct="2" ts="1764602287933" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/106</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="25" ct="17" ts="1764602288146" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13224" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602288215" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602288692" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="3" ts="1764602288692" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/107</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602288968" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1764602289172" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="57" it="0" lt="56" ct="27" ts="1764602289249" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13221" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602289721" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/108</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="2" ts="1764602289749" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602289995" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13208" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602290198" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="9" ct="2" ts="1764602290309" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="3" ts="1764602290736" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="56" it="0" lt="55" ct="23" ts="1764602290771" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13193" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="2" ts="1764602291042" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602291237" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/109</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="2" ts="1764602291329" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="17" ts="1764602291821" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13193" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="22" ct="2" ts="1764602291837" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602292064" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="2" ts="1764602292266" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="3" ts="1764602292365" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/110</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="3" ts="1764602292860" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="41" ct="3" ts="1764602292876" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602293093" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/111</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="36" ct="16" ts="1764602293345" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13182" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1764602293392" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="3" ts="1764602293893" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="2" ts="1764602293924" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/112</java.net.URL>
+</httpSample>
+<httpSample t="35" it="0" lt="35" ct="2" ts="1764602294145" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="2" ts="1764602294395" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="2" ts="1764602294411" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13164" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="36" ct="2" ts="1764602294943" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="2" ts="1764602294943" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/113</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602295184" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13152" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="3" ts="1764602295429" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="21" ct="2" ts="1764602295430" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="17" ts="1764602295984" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13152" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602296000" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="3" ts="1764602296237" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="2" ts="1764602296453" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/114</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="34" ct="2" ts="1764602296453" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="3" ts="1764602297024" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="28" ct="17" ts="1764602297039" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13140" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="2" ts="1764602297257" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602297477" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="3" ts="1764602297493" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/115</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="2" ts="1764602298045" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="2" ts="1764602298076" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="37" ct="2" ts="1764602298310" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/116</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="1" ts="1764602298514" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="51" ct="16" ts="1764602298514" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13133" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602299093" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/117</java.net.URL>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="2" ts="1764602299125" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602299359" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="24" ct="16" ts="1764602299546" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13123" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="3" ts="1764602299577" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1764602300140" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602300140" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/118</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="3" ts="1764602300439" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13116" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="3" ts="1764602300580" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="3" ts="1764602300596" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="2" ts="1764602301170" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13116" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="46" ct="2" ts="1764602301170" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="17" ct="2" ts="1764602301461" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602301598" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="3" ts="1764602301650" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/119</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="20" ct="2" ts="1764602302203" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="15" ts="1764602302219" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="13104" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="23" ct="2" ts="1764602302485" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="3" ts="1764602302624" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/120</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="3" ts="1764602302684" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="39" ct="3" ts="1764602303234" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="2" ts="1764602303267" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="12" ct="3" ts="1764602303513" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/121</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602303651" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="20" ct="2" ts="1764602303716" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="13078" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="2" ts="1764602304275" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/122</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="3" ts="1764602304291" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1764602304538" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="37" ct="17" ts="1764602304683" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="13084" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="3" ts="1764602304749" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="2" ts="1764602305315" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="394" sby="387" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="2" ts="1764602305331" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="222" sby="190" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/delete/123</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="16" ts="1764602305566" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="13074" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="8" ct="2" ts="1764602305721" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="427" sby="159" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="41" ct="3" ts="1764602305784" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="387" sby="380" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="24" ct="16" ts="1764602306351" s="true" lb="Get Producted 50" rc="200" rm="OK" tn="Baselina 1-4" dt="text" by="13074" sby="173" ng="5" na="5">
+  <java.net.URL>http://localhost:8000/products?limit=50&amp;page=3</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="21" ct="3" ts="1764602306381" s="true" lb="Create Product" rc="200" rm="OK" tn="Baselina 1-5" dt="text" by="394" sby="387" ng="4" na="4">
+  <java.net.URL>http://localhost:8000/products/create</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="2" ts="1764602306618" s="true" lb="Get Product by ID" rc="200" rm="OK" tn="Baselina 1-3" dt="text" by="427" sby="159" ng="3" na="3">
+  <java.net.URL>http://localhost:8000/products/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="2" ts="1764602306741" s="true" lb="Update Product" rc="200" rm="OK" tn="Baselina 1-2" dt="text" by="387" sby="380" ng="2" na="2">
+  <java.net.URL>http://localhost:8000/products/update/1</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="3" ts="1764602306834" s="true" lb="Delete Product" rc="200" rm="OK" tn="Baselina 1-1" dt="text" by="222" sby="190" ng="1" na="1">
+  <java.net.URL>http://localhost:8000/products/delete/124</java.net.URL>
+</httpSample>
+
+</testResults>

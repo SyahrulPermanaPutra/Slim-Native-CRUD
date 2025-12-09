@@ -1,0 +1,7 @@
+Label;Samples;Average;Median;90% Line;95% Line;99% Line;Min;Max;Error% ;Troughput;Received Kb/Sec;Sent KB/sec
+Stress Test: Create Product;2749;219;234;353;386;457;9;691;0.000%;745134;2.88;2.83
+Stress Test: Get Product 50;2739;220;237;351;388;458;10;683;0.000%;743125;94.42;1.26
+Stress Test: Get Product ID;2727;218;232;348;380;454;8;659;0.000%;743125;3.10;1.15
+Stress Test: Update Product;2717;222;239;351;381;471;11;679;0.000%;742654;2.81;2.76
+Stress Test: Delete Product;2709;222;238;351;381;465;11;681;0.000%;742664;1.61;1.38
+Total;13641;1101;1180;1754;1916;2305;49;3393;;3716702;104.51;9.34

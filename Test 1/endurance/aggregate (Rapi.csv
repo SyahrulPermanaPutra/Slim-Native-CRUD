@@ -1,0 +1,7 @@
+Label;Samples;Average;Median;90% Line;95% Line;99% Line;Min;Max;Error% ;Troughput;Received Kb/Sec;Sent KB/sec
+Endurance: Create Product;10469;33;34;54;68;86;8;198;0.000%;572381;2.22;2.18
+Endurance: Get Product 50;10463;37;37;55;69;85;9;180;0.000%;572401;72.65;0.97
+Endurance: Get Product ID;10457;30;30;51;64;82;7;233;0.000%;572429;2.39;0.89
+Endurance: Update Product;10450;35;36;55;69;87;8;243;0.000%;572316;2.17;2.13
+Endurance: Delete Product;10444;34;35;54;69;87;8;243;0.000%;572314;1.25;1.07
+Total;52283;169;172;269;339;427;40;1097;;2861841;80.61;7.22

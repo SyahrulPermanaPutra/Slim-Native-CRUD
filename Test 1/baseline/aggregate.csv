@@ -1,0 +1,7 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+Baselina:Create Product,120,23,17,38,38,59,11,69,0.000%,.97841,0.38,0.37
+Baselina:Get Producted 50,120,33,34,52,53,57,11,66,0.000%,.97866,12.62,0.17
+Baselina:Get Product by ID,119,20,19,36,36,38,8,49,0.000%,.98131,0.41,0.15
+Baselina:Update Product,117,23,19,39,39,40,12,40,0.000%,.97555,0.37,0.36
+Baselina:Delete Product,116,24,23,39,39,41,11,58,0.000%,.97616,0.21,0.18
+TOTAL,592,25,23,39,41,54,8,69,0.000%,4.78631,13.84,1.20
