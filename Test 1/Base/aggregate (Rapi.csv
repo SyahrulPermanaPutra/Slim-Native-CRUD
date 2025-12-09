@@ -1,0 +1,7 @@
+Label;Samples;Average;Median;90% Line;95% Line;99% Line;Min;Max;Error% ;Troughput;Received Kb/Sec;Sent KB/sec
+Baseline : Create Product;115;71;71;83;86;96;56;245;0.000%;93722;0.67;0.35
+Baseline : Get Product 50;115;83;86;93;96;130;59;136;0.000%;93849;12.44;0.16
+Baseline : Get Product ID;113;66;67;77;81;88;54;93;0.000%;93548;0.70;0.15
+Baseline : Update Product;112;74;73;88;92;147;59;162;0.000%;93358;0.66;0.35
+Baseline : Delete Product;111;71;73;81;87;126;59;133;0.000%;93311;0.51;0.17
+Total;566;365;370;422;442;587;287;769;;467788;14.78;1.15

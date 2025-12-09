@@ -1,0 +1,7 @@
+Label;Samples;Average;Median;90% Line;95% Line;99% Line;Min;Max;Error% ;Troughput;Received Kb/Sec;Sent KB/sec
+Normal Test: Create Product;572;73;72;86;94;121;53;186;0.000%;182461;1.31;0.69
+Normal Test: Get Product 50;570;80;78;93;97;132;54;168;0.000%;182765;23.74;0.31
+Normal Test : Get Product ID;569;69;68;83;90;113;48;177;0.000%;182457;1.36;0.28
+Normal Test : Update Product;566;74;73;87;96;130;55;184;0.000%;182532;1.29;0.68
+Normal Test: Delete Product;564;73;73;87;95;122;51;185;0.000%;182470;0.99;0.34
+Total;2841;74;73;90;95;124;48;186;;912685;28.47;2.28
